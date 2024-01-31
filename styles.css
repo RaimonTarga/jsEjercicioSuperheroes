@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(14, 14, 14);
+}
+
+header{
+    width: 100vw;
+    background-color: rgb(53, 53, 53);
+    margin: 0 auto;
+    padding: 10px;
+}
+
+h1{
+    text-align: center;
+    color: antiquewhite;
+}
+
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 100vw;
+    height: 75vh;
+    background-color: rgb(141, 141, 141);
+}
+
+.inputContainer{
+    margin-left: 10%;
+}
+
+
+input{
+    margin-top: 15px;
+    width: 25%;
+}
+
+button{
+    margin-left: 35%;
+    margin-top: 15px;
+}
+
+label{
+    margin-right: 0px;
+}

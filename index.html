@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Ejercicio Superheroes</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head<>
+<body>
+    <header>
+        <h1>Ejercicio Superheroes</h1>
+    </header>
+    <div class="formContainer">
+        <p>Introduce tu nombre, apellido y fecha de nacimiento</p>
+        <div class="inputContainer">
+            <input type="text" id="nombreValue" placeholder="Nombre">
+            <input type="text" id="apellidoValue" placeholder="Apellido">
+            <input type="text" id="fechaValue" placeholder="Fecha de nacimiento">
+            <form>
+                <input type="radio" id="radioMasc" name="gender">
+                <label for="radioMasc">
+                    Masculino
+                </label>
+                <input type="radio" id="radioFem" name="gender">
+                <label for="radioMasc">
+                    Femenino
+                </label>
+            </form>
+            <button onclick="resolveName()">Submit</button>
+        </div>
+        <div class="resultContainer" id="resultContainer">
+
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="./demo.js"></script>
+</html>
